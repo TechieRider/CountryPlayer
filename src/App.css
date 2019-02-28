@@ -1,33 +1,68 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
   }
-  to {
-    transform: rotate(360deg);
+  
+  body {
+    background: black;
+    background-image: url('../src/img/country.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
   }
-}
+  
+  .search-bar {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .search-bar h2{
+    color:white;
+  }
+  
+  .search-bar input {
+    width: 70%;
+  }
+  
+  .video-item img {
+    max-width: 64px;
+  }
+  
+  .video-detail {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+  }
+  
+  .video-list {
+    overflow: auto;
+    min-width: 150px;
+    max-height: 60vh;
+  }
+  
+  .details {
+    background-color: grey;
+    opacity: 0.9;
+  }
+  
+  .list-group-item {
+    cursor: pointer;
+    background: black !important;
+    height: auto;
+  }
+  
+  .list-group-item:hover {
+    background-color: #eee !important;
+  }
+  
+  .description {
+    color:white;
+    opacity: 1.2;
+  }
+  
+  .media-heading {
+    color: white !important;
+  }
+  
+  

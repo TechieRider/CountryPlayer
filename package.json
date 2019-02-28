@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "youtube-api-search": "0.0.5",
+    "youtube-api-v3-search": "^1.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

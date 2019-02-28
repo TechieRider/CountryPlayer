@@ -1,14 +1,67 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+body {
+  background: black;
+  background-image: url('../src/img/country.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar h2{
+  color:white;
+}
+
+.search-bar input {
+  width: 70%;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.video-list {
+  overflow: auto;
+  min-width: 150px;
+  max-height: 60vh;
+}
+
+.details {
+  background-color: grey;
+  opacity: 0.9;
+}
+
+.list-group-item {
+  cursor: pointer;
+  background: black !important;
+  height: auto;
+}
+
+.list-group-item:hover {
+  background-color: #eee !important;
+}
+
+.description {
+  color:white;
+  opacity: 1.2;
+}
+
+.media-heading {
+  color: white !important;
+}
+
