@@ -8,7 +8,6 @@ body {
   background-image: url('../src/img/country.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 
 .search-bar {
@@ -54,11 +53,13 @@ body {
 
 .list-group-item:hover {
   background-color: #eee !important;
+  color: black;
 }
 
 .description {
   color:white;
   opacity: 1.2;
+  padding-left: 8px;
 }
 
 .media-heading {
